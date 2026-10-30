@@ -1,0 +1,38 @@
+﻿# ========== 编译产物 ==========
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+*.crf
+*.d
+*.lnp
+*.sct
+*.htm
+*.build_log.htm
+
+# ========== Keil 输出目录 ==========
+Objects/
+Listings/
+Debug/
+Release/
+
+# ========== Keil 用户/临时文件 ==========
+*.uvguix.*
+*.bak
+*.dep
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd
+
+# ========== IDE 配置 ==========
+.vscode/
+.idea/
+
+# ========== 日志与系统文件 ==========
+*.log
+.DS_Store
+Thumbs.db
